@@ -1,5 +1,7 @@
-﻿namespace Core.Data;
+﻿using CsvHelper.Configuration.Attributes;
 
-internal class CsvRepository : Repository
+namespace Core.Data;
+
+public class CsvRepository : Repository
 {
 }
